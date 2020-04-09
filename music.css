@@ -1,0 +1,47 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+h1 {
+    text-align: center;
+}
+body {
+    background: black;
+    color: white;
+    padding: 10px;
+}
+img {
+    max-width: 50px;
+    min-width: 50px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-grow: 1;
+    text-align: center;
+    padding: 20px;
+}
+.track {
+    width: 144px;
+    border: 2px grey solid;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 20px;
+    background: rgb(29, 29, 29);
+    
+}
+track h3 {
+    margin: 0 auto;
+    font-size: 14px;
+}
+.track.no-change {
+    border-color: grey;
+}
+.track.up {
+    background: rgba(0, 92, 128, 0.534);
+}
