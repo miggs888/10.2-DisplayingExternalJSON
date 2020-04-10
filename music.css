@@ -43,5 +43,8 @@ track h3 {
     border-color: grey;
 }
 .track.up {
-    background: rgba(0, 92, 128, 0.534);
+    background: rgba(2, 87, 27, 0.534);
+}
+.track.down {
+    background: rgba(253, 84, 84, 0.192);
 }

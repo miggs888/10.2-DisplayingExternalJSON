@@ -10,11 +10,12 @@ Vue.component('streaming-track', {
                         const delta = this.track.rank - this.track.position.positionLastWeek;
                         if (delta > 0) {
                             return 'up'
-                        }
-                        else {
+                          } else if (delta < 0) {
+                            return 'down'
+                          } else {
                             return 'no-change'
+                          }
                         }
-                    }
                 }
 
 });
